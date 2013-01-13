@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Humberto Sermeño]]></title>
+  <link href="http://humberto-sermeno.com/atom.xml" rel="self"/>
+  <link href="http://humberto-sermeno.com/"/>
+  <updated>2013-01-12T23:32:48-06:00</updated>
+  <id>http://humberto-sermeno.com/</id>
+  <author>
+    <name><![CDATA[Humberto Sermeño]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Scraper de iMDb en XBMC]]></title>
+    <link href="http://humberto-sermeno.com/blog/2013/01/10/scraper-de-imdb-en-xbmc/"/>
+    <updated>2013-01-10T12:54:00-06:00</updated>
+    <id>http://humberto-sermeno.com/blog/2013/01/10/scraper-de-imdb-en-xbmc</id>
+    <content type="html"><![CDATA[<p>Desde hace algunos días había notado que el Scraper del <a href="http://imdb.com">Internet Movie Database</a> en
+XBMC no aparecía, pero no me había puesto mayor atención, hasta ahora, cuando quise dedicar un poco
+de tiempo a arreglar la información de las películas que no se encontraban bien etiquetadas en mi colección.</p>
+
+<!-- more -->
+
+
+<p>Lo extraño fue que desde mi iMac, cuando quería acceder la información de las películas, la opción no
+aparecía en el menú contextual. Tampoco la tecla <code>ì</code>, que normalmente muestra la información, tenía efecto
+alguno. Después de una búsqueda rápida encontré que la solución era reasignar el contenido de mi fuente
+de archivos correspondiente a las películas, pero ahí es donde regresé al tema del iMDb.</p>
+
+<p>iMDb es definitivamente mi fuente favorita para la información de películas: arte, fechas de estreno,
+sinopsis, pero, sobre todo, la calificación. He encontrado que ésta es bastante acorde con mis gustos, y
+normalmente una película mal calificada (un 6.5 para abajo) resulta no ser de mi agrado, mientras que
+invariantemente una con buena calificación me termina gustando. Es por esto que siempre optaba por el
+Scraper de iMDb para obtener la información de las películas en mi colección. Y claro, me desanimé cuando
+encontré que dicho add-on ya no está disponible.</p>
+
+<p>La buena noticia fue que justo antes que me decidiera por escribir mi propio add-on, me di cuenta que el
+nuevo Universal Scraper (versión 2.1.0 para arriba) tiene soporte para el iMDb! Así que si estaban en las
+mismas mías, basta con instalar y configurar el Universal Scraper (dentro de los add-on de <em>Movie Information</em>)
+y elegir que todo venga del iMDb.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Nuevo Blog]]></title>
+    <link href="http://humberto-sermeno.com/blog/2012/12/21/nuevo-blog/"/>
+    <updated>2012-12-21T08:58:00-06:00</updated>
+    <id>http://humberto-sermeno.com/blog/2012/12/21/nuevo-blog</id>
+    <content type="html"><![CDATA[<p>Finalmente, ¡mi sitio web está de vuelta! Espero que esta vez sea más permanente
+que las veces anteriores que he intentado revivir mi blog.</p>
+
+<p>Hay varios cambios importantes que decidí hacer en esta nueva revisión del sitio.</p>
+
+<!-- more -->
+
+
+<h2>Nuevo URL</h2>
+
+<p>Humberto-Sermeno.com. Puede que suene un poco egotístico, pero
+  en realidad no encontré qué nombre poner, así que por el momento me quedé con éste.
+  Cuando llegue el momento de renovar el dominio PirataSV.net, haré los cambios para
+  que ambos dominios apunten a este mismo sitio (no los hago antes por cuestiones de
+  logística, no técnicas).</p>
+
+<h2>Nuevo Diseño</h2>
+
+<p>Aunque me gustaba el diseño anterior de mi blog, decidí esta vez optar
+por un diseño minimalista que se enfocara en el contenido más que en la apariencia.
+Lo mejor de todo: esta también es una buena excusa para justificar mi falta de
+creatividad en diseño.</p>
+
+<p>Sin embargo, por el momento es aún más simple que lo que quiero. Simplemente no he
+tenido suficiente tiempo para trabajar en la página, por lo que iré agregando
+poco a poco más cosas a medida que vaya teniendo espacio para hacerlo.</p>
+
+<h2>Nuevo Enfoque</h2>
+
+<p>Anteriormente había separado mi blog en dos: una <a href="http://tech.piratasv.net">sección tecnológica</a>,
+donde escribía exclusivamente de cosas técnicas, y <a href="http://piratasv.net">otra personal</a>. Ahora
+no recuerdo las razones por las que hice la diferencia entre las dos, pero no encuentro ninguna
+para hacer que este nuevo sitio haga esa distinción. Por lo tanto, todos los artículos que escriba
+estarán en el mismo Blog.</p>
+
+<h2>Páginas Estáticas</h2>
+
+<p>Una de los mayores cambios que realicé fue migrarme desde <a href="http://wordpress.org">Wordpress</a> hacia
+<a href="http://octopress.org">Octopress</a>/<a href="http://jekyllrb.com/">Jekyll</a>, por
+lo que ahora el sitio está completamente compuesto por páginas estáticas. La
+principal razón del cambio fue el &#8216;costo&#8217; de mantener una instalación de Wordpress: constantemente
+preocuparse por tener la última versión para evitar vulnerabilidades. Me extenderé más en esto
+y las demás razones en algún otro artículo.</p>
+
+<p>Eso sí, no quisiera que haya malos entendidos. Me gusta Wordpress y, de hecho, lo utilizo a diario
+con mis clientes. Sin embargo, creo que para un blog simple como el mío, Wordpress es simplemente
+demasiado.</p>
+
+<p>La idea es que más adelante migraré todos los artículos que había escrito en PirataSV.net a este
+nuevo sitio, pero para eso necesito un poco de tiempo.</p>
+
+<h2>Nuevo Host</h2>
+
+<p>Otro cambio significativo es el del host de <a href="http://lunarpages.com">Lunarpages</a> a
+<a href="http://aws.amazon.com/">Amazon EC2</a>. Esta decisión fue tomada principalmente por cuestiones de
+aprendizaje, ya que quería tener un poco de experiencia utilizando Amazon AWS. Resultó ser tan
+fácil como manejar un servidor cualquiera, por lo que estoy alegre con el resultado, principalmente
+el poder tener completo control sobre el software que corre en el servidor. Lo mejor de todo: Amazon
+ofrece un año gratis de una instancia micro, que es más que suficiente para mis necesidades, y aún
+después del año, el modelo de &#8220;pague por lo que usa&#8221; hace que Amazon sea una opción económica
+para sitios de bajo flujo como el mío.</p>
+
+<p>Todavía tengo mi cuenta en Lunarpages activa hasta que se venza en el 2015, pero la ocuparé
+exclusivamente para trabajo. Si no tienen experiencia manejando servidores, Lunarpages es una
+excelente opción para servir su página web.</p>
+
+<p>En algún momento escribiré sobre mi experiencia con el Amazon AWS.</p>
+
+<h2>Nuevo Servidor HTTP</h2>
+
+<p>Finalmente, y siguiendo la línea de los &#8220;cambios para aprender&#8221;, decidí hacer a un lado a Apache
+para favorecer a un simple servidor con <a href="http://nginx.org/">nginx</a> y <a href="http://nodejs.org/">Node.js</a>.
+La selección de Node.js la hice basada en mi proyecto de automatización de las luces de mi casa,
+donde quería no sólo aprender algo nuevo, sino algo que fuera lo suficientemente liviano para
+correr en un Raspberri Pi sin quitar muchos recursos. Dado que mi servidor en Amazon también
+tiene recursos limitados, utilizar Node.js ahí me pareció una buena opción.</p>
+
+<p>Dejaré para otro artículo mis experiencias programando en Node.js.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[La renuncia del verdadero don bTo]]></title>
+    <link href="http://humberto-sermeno.com/blog/2011/02/09/la-renuncia-del-verdadero-don-bto/"/>
+    <updated>2011-02-09T20:28:00-06:00</updated>
+    <id>http://humberto-sermeno.com/blog/2011/02/09/la-renuncia-del-verdadero-don-bto</id>
+    <content type="html"><![CDATA[<p>Hace más de un año hice una entrada en mi blog para aquellos que compartían mi gusto por
+cierto juego de FB (que permanecerá sin ser nombrado en esta ocasión) titulada “La renuncia
+de don bTo”, donde explicaba el por qué de mis intenciones de abandonar el juego, al menos
+en mi cuenta principal. Creo que ha llegado el momento de hacer lo mismo, pero para la vida real.</p>
+
+<!-- more -->
+
+
+<p>Algunos de ustedes ya sabrán (es increíble la velocidad a la que se extienden estas notcias)
+que el miéroles pasado envié una carta a Junta Directiva de mi facultad (Ciencias Naturales y
+Matemática, para los perdidos) presentando oficialmente mi renuncia de caracter irrevocable a
+mi puesto de Profesor en la Escuela de Matemática a partir del 15 de febrero. Dicha carta fue
+vista en la sesión de Junta del día de ayer.</p>
+
+<p>Aunque muchos han visto esta decisión como súbita, en realidad es una que ya había tomado desde
+antes del inicio del ciclo II del año pasado. De hecho, la única razón por la que no renuncié en
+ese entonces fue que había tenido la oportunidad de comenzar un proceso de cambio en la forma de
+enseñanza de la Programación para nuestras licenciaturas y no quería dejar a medias a aquellos
+alumnos que habían decidido acompañarme en el proceso. Creo que ellos entenderán ahora cuál es
+la verdadera respuesta para una pregunta muy directa y sincera que me hizo una de mis mejores
+alumnas cuando salimos con el grupo de Programación II a despedirnos del ciclo: “¿por qué nos
+invitó a este almuerzo?”</p>
+
+<p>Gracias al programa Jóvenes Talento -del cual soy parte de la primera generación de estudiantes,
+al igual que Riquelmi Cardona- me dí cuenta de lo importante que es para el desarrollo de una
+sociedad el impulso de la Ciencia. Una de las grandes debilidades de nuestro país es que nuestro
+sistema educativo no está aún preparado para identificar, incentivar y orientar a aquellos que
+tienen aptitudes para entrar en el mundo científico. Y es precisamente ahí donde vi una oportunidad
+de incidir. Mi elección de la UES sobre otras ofertas de trabajo fue principalmente que es en dicha
+Universidad donde se puede alcanzar a la mayor parte de la población con deseos de estudiar, y no
+sólo a aquellos que tienen la oportunidad de pagar una universidad privada. Si bien soy matemático
+de corazón (y como buena parte de mi formación), mi pasión son las Ciencias de la Computación, y es
+por eso que decidí intentar impulsar un área que el país es prácticamente nula, ya que son muchas
+las carreras de computación desde el punto de vista de ingeniería, pero ninguna desde el punto de
+vista científico. Cuando entré en el 2006 mi principal objetivo era impulsar la Lic. de Ciencias de
+la Computación dentro de la Escuela de Matemática, su hábitat natural. Lastimosamente, aspectos como
+la falta de recursos y la falta de voluntad política, especialmente de aquellos que no entendieron
+el proyecto, hicieron que cinco años después la carrera aún no haya sido aprobada y dadas las
+circunstancias actuales de disponibilidad de plazas para mi departamento, no se ve una solución clara
+para los años venideros. Esto me deja no sólo en un departamento que en esencia es de servicio para
+las otras licenciaturas, sino que sin alumnos con quienes realizar investigación en mi área de interés.
+Esto, sobre todo, fue el aspecto determinante sobre mi decisión de abandonar la Universidad.</p>
+
+<p>Sin embargo, creo que los últimos cinco años no fueron del todo en vano. Se impulsó un cambio
+significativo en Lógica Matemática, donde creo ahora se realiza un esfuerzo consciente y determinado
+por introducir a los alumnos a los métodos de demostración que serán sus herramientas básicas para el
+resto de su carrera. Espero (al fin) este año publicar el libro resultante de mi experiencia coordinando
+e impartiendo dicha materia. El último año se realizó un experimento que creo sirvió para mejorar la
+forma en que se enseña a Programar a alumnos de las carreras de la Escuela, enfocándose en aspectos
+útiles para su vida matemática y dejando a un lado aspectos puramente técnicos que no contribuían en
+su formación. Espero terminar de documentar dicha experiencia para que sea tomada en cuenta en la próxima
+versión del plan de estudio de las licenciaturas en Matemática y Estadística. Se impulsó el uso de
+Software Libre, especialmente del sistema operativo Linux, hasta el punto que, en conjunto con el
+acompañamiento de Carlos Rodríguez del Centro de Cómputo y luego con el aval de Karina Guardado, ahora
+está siendo utilizado por el personal administrativo y se encuentra ampliamente disponible a los alumnos
+en el Centro de Cómputo de la Facultad. Se impulsó, junto con Riquelmi y otros compañeros, el uso de
+Latex, el sistema de composición estándar de textos en el mundo científico. En estos últimos meses, he
+acompañado el esfuerzo de un buen grupo de profesores de la Escuela por incidir en la educación matemática
+en media y tercer ciclo a través del post-grado para profesores del sistema educativo nacional. Aunque
+dejo la Escuela, espero poder continuar debido a la gran importancia que veo de proyectos como este para
+el desarrollo nacional.</p>
+
+<p>En retrospectiva, creo que hay situaciones que me hubiese gustado fueran diferentes en un ambiente que
+debiera ser puramente académico y que también influyeron en mi decisión de abandonar la Universidad.
+Creo que la Escuela tiene aún mucho trabajo por hacer en términos de unidad. Se cuenta con personas
+académicamente fuertes, pero lastimosamente muchas veces son los argumentos políticos, y no los académicos,
+los que rigen la vida universitaria. Existe una gran debilidad en términos de las sociedades estudiantiles,
+y no puedo hacer menos que hacer un llamado a los buenos alumnos de la Facultad a que se aseguren que a
+quienes eligen como dirigentes estudiantiles realmente representen los deseos e intereses de los estudiantes
+y no respondan únicamente a intereses particulares.</p>
+
+<p>También en retrospectiva, fueron cinco años en compañía de grandes personas y grandes maestros con quienes
+pude compartir mi deseo por hacer de éste un mejor país y con quienes espero poder seguir colaborando en
+esa dirección. Agradezco su amistad y su apoyo en las iniciativas de cambio que intenté impulsar. También
+conocí y tuve el privilegio de dar clases a personas que tienen un gran potencial tanto como para desarrollo
+personal como para darle grandes aportes a nuestro país. Espero haberles transmitido un poco de mi entusiasmo
+y amor por la ciencia. Para mí fue un orgullo tenerlos como alumnos.</p>
+
+<p>El año frente a mi aún se está moldeando. Estaré principalmente como consultor independiente (sí, eso
+significa trabajo en casa). No me desligaré del todo de la Escuela ya que espero continuar con el
+Post-grado para Profesores de Matemática de Educación Media y, de ser posible, regresar como Mentor en
+Jóvenes Talento (de donde me había alejado por cuestiones de tiempo). Pero sobre todo, regresaré a mis
+raíces, autoimponiéndome proyectos para intentar ser creativo. Mis compañeros saben que estaré disponible
+para acompañar cualquier iniciativa en pro del desarrollo de nuestro país. Mis alumnos debieran saber que
+estaré dispuesto a aportar en la medida de lo posible a continuar aportando a su desarrollo profesional.</p>
+
+<p>Todo esto lo escribo no como excusa o explicación. Así como consideré oportuno en su tiempo anunciar las
+razones de mi abandono del juego de FB (un tema, que claramente era órdenes de magnitud menos significativo
+que éste), considero estas palabras como el cierre de una etapa de mi vida y el inicio de una nueva en la
+que creo debía entrar.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sin tiempo para leer]]></title>
+    <link href="http://humberto-sermeno.com/blog/2010/03/03/sin-tiempo-para-leer/"/>
+    <updated>2010-03-03T13:11:00-06:00</updated>
+    <id>http://humberto-sermeno.com/blog/2010/03/03/sin-tiempo-para-leer</id>
+    <content type="html"><![CDATA[<p>Hoy que pasé por una librería en metro me percaté del poco tiempo
+(por no decir “nada”) que le he podido dedicar a la lectura últimamente.
+Si ven unos pocos post atrás se darán cuenta de lo mucho que me gusta leer
+y de lo mucho que había podido estarlo haciendo. Hoy mi lista de libros por
+leer sigue igual desde hace como 2 meses y eso no me gusta.</p>
+
+<p>Para mitigar un poco eso me conseguí una aplicación en el iPhone para andar
+leyendo unos libros clásicos que nunca había leído, como “viaje al centro de
+la tierra” de Verne y “A tale of two cities” de Dickens. Definitivamente no
+puede reemplazar al libro impreso, pero al final de cuentas supongo que algo
+es mejor que nada.</p>
+
+<p>Por cierto, la aplicación es la 3D bookshelf. Está bonita y sólo cuesta $0.99
+en la app store. Y no, no me pagan por hacerle propaganda :)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Cosas Curiosas]]></title>
+    <link href="http://humberto-sermeno.com/blog/2010/02/13/cosas-curiosas/"/>
+    <updated>2010-02-13T19:02:00-06:00</updated>
+    <id>http://humberto-sermeno.com/blog/2010/02/13/cosas-curiosas</id>
+    <content type="html"><![CDATA[<p>Hoy que fui a Galerías a ver lo de mi nuevo # de celular me topé con un par de cosas graciosas.
+Primero, y este es sólo para aquellos tecnológicamente inclinados, a la chava que me estaba
+atendiendo para lo del contrato le hice una pregunta con relación al servicio de Internet que
+venía con el plan: &#8220;¿bloquean alguno de los puertos de salida?&#8221; y ella me dijo &#8220;permítame, le
+voy a consultar&#8221;. Después de un rato regresó y me dice &#8220;sí, fíjese que bloquean el puerto del GPS&#8221;…</p>
+
+<p>Luego de eso, mientras esperaba que me registraran el celular en la red, llegó otro cliente con
+tra de los del centro de servicio de Claro y estaba consultando sobre un teléfono. Viene el de
+Claro y, describiendo uno de los teléfonos, le dice al cliente “Este teléfono ya trae 32 GB y
+puede ponerle 16 GB más”, a lo que el cliente le responde: &#8220;aaah! ¡¿osea que puedo tener hasta
+42 GB?!&#8221; Lo mejor de todo fue que el de Claro le dijo: &#8220;sí, imagínese! 42 GB!&#8221;</p>
+
+<p>Finalmente iba de regreso a la casa en la 30B y es costumbre se subió un vendedor ambulante al
+bus. De hecho, este era uno de los de la cruz roja que andaba vendiendo unos llaveros en forma de
+cruz a $1. No le puse realmente antención a todo lo demás que dijo hasta que algo sonó en mi oído.
+&#8220;Y lo mejor de estas crucitas es que tienen algo muy útil&#8221;, en cuyo momento apretó un botoncito
+al centro de la cruz y salio una navaja de la parte de abajo. Quise comprar una sólo para tomarle
+una foto, pero ya cuando llegó a mi asiento ya se le habían acabado!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Leyendo a Darwin]]></title>
+    <link href="http://humberto-sermeno.com/blog/2009/08/05/leyendo-a-darwin/"/>
+    <updated>2009-08-05T00:50:00-06:00</updated>
+    <id>http://humberto-sermeno.com/blog/2009/08/05/leyendo-a-darwin</id>
+    <content type="html"><![CDATA[<p>Una de las pocas cosas buenas de mi soltería temporal es que me ha quedado mucho más tiempo para
+leer que el de costumbre. Leí con &#8220;The Deamon-Haunted World&#8221; de Carl Sagan, que venía leyendo de
+poco en poco y nunca terminaba; &#8220;La historia me absolverá&#8221;, de Claudia Furiati; releí los libros
+de Harry Potter (sí, los 7…¿qué culpa que me gusten?); y al fin comencé con un libro que tenía en
+cola desde hace mucho: &#8220;On the Shoulders of Giants&#8221;, una recopilación de obras maestras comentadas
+por Stephen Hawking donde se presentan 5 libros que revolucionaron a la ciencia (escritos por
+Copérnico, Galileo, Kepler, Newton y Einstein). Todos se los recomiendo.</p>
+
+<p>Siendo éste último un libro de 1300 páginas, normalmente suelo leer otras cosas de por medio para
+mantener el interés. En este caso, &#8220;El orígen del hombre&#8221; (1871), de Charles Darwin, que junto con
+&#8220;El orígen de las especies&#8221; (1859) son dos lecturas esenciales para los biólogos que me leen y para
+los que gustan de la historia de la ciencia. En su introducción puede encontrarse esta cita que fue
+la principal razón por la que me puse a escribir esta entrada:</p>
+
+<blockquote><p>La ignorancia genera confianza más frecuentemente que el conocimiento: son aquellos que saben poco,
+y no esos que saben mucho, quienes tan positivamente afirman que éste o aquel problema nunca será
+resuelto por la ciencia.</p></blockquote>
+
+<p>Cualquiera que se sienta aludido por esta cita… fue intencional.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Golpe Inaceptable]]></title>
+    <link href="http://humberto-sermeno.com/blog/2009/06/30/golpe-inaceptable/"/>
+    <updated>2009-06-30T10:36:00-06:00</updated>
+    <id>http://humberto-sermeno.com/blog/2009/06/30/golpe-inaceptable</id>
+    <content type="html"><![CDATA[<p>Sin importar su opinión sobre las acciones del presidente Zelaya, de sobre si su
+consulta era o no anticonstitucional y sobre su participación en la crisis política
+que se había desatado en Honduras, lo que sucedió el domingo, bajo cualquier estándar
+internacional de democracia no tiene otro nombre más que &#8220;Golpe de Estado&#8221;, algo que
+ninguno que crea en la democracia puede apoyar en ningún sentido. Y lo peor de todo es
+cómo el golpe fue apoyado y ejecutado por militares hondureños y que luego se intentó
+justificar con una orden judicial y con una supuesta carta de renuncia que fue
+nmediatamente desmentida por Zelaya. Esto sin mencionar la censura total en la que se
+vieron los medios de comunicación alternativos, algunos de los cuales fueron militarizados
+desde el domingo. No es de extrañar que todos los países y organizaciones internacionales
+que han hecho una pronunciación sobre lo ocurrido en Honduras han denunciado el golpe y
+desconocido a cualquier otro gobierno que no sea el de Zelaya.</p>
+
+<p>Todavía más alarmante es cómo algunos de los políticos de nuestro país apoyan las acciones
+tomadas para destituir a Zelaya. Un dirigente del PCN dijo que era una sucesión democrática
+porque &#8220;Zelaya había renunciado&#8221; y un supuesto analista de la Prensa Gráfica incluso escribió
+que &#8220;Honduras nos ha dado una lección en democracia&#8221;. Ese es un mensaje claro de su concepto de
+democracia: la fuerza militar es un instrumento de la oposición política. Si Zelaya había
+cometido un delito y había orden de captura, debía ser llevado a un tribunal y juzgado, con
+derecho a defenderse, pero nunca expulsado y sustituido de inmediato. Eso es simplemente
+inaceptable.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[La Pseudociencia en los Medios]]></title>
+    <link href="http://humberto-sermeno.com/blog/2009/04/28/la-pseudociencia-en-los-medios/"/>
+    <updated>2009-04-28T10:30:00-06:00</updated>
+    <id>http://humberto-sermeno.com/blog/2009/04/28/la-pseudociencia-en-los-medios</id>
+    <content type="html"><![CDATA[<p>Aún cuando me gusta mucha de la programación de los canales Discovery, del Nat Geo y
+del History Channel, en muchas ocasiones me veo desepcionado en cómo canales que deberían
+mostrar todos los ángulos de un tema en particular, no lo hacen. Programas como
+&#8220;MonsterQuest&#8221;, &#8220;Extraterrestres&#8221; o el de las profecías de Nostra Damus (que me llevó a
+escribir esta pequeña queja), que aunque muestran temas populares, no le dan el tratamiento
+crítico adecuado, dejando que la pseudociencia se mezcle con programas puramente científicos
+sin siquiera una advertencia al respecto.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[En la Semana de la Tierra]]></title>
+    <link href="http://humberto-sermeno.com/blog/2009/04/25/en-la-semana-de-la-tierra/"/>
+    <updated>2009-04-25T11:12:00-06:00</updated>
+    <id>http://humberto-sermeno.com/blog/2009/04/25/en-la-semana-de-la-tierra</id>
+    <content type="html"><![CDATA[<p>Normalmente mientras trabajo me gusta tener de fondo algún programa de algunos de los
+canales Discovery o del Nat Geo. Como era de esperarse, muchos de los programas de esta
+semana fueron dedicados al día de la tierra. Y eso me puso a pensar en el tipo de mercadeo
+que se le da a la conservación del planeta.</p>
+
+<!-- more -->
+
+
+<p>Normalmente nos dicen que debemos cuidar a la tierra, que estamos causando la extinción
+de muchas especies, que estamos contaminando los mares, que acabamos con nuestra vegetación,
+que abrimos agujeros y elevamos la cantidad de gases que causan el efecto invernadero en
+nuestra atmósfera. Sin embargo, no creo que se le haga énfasis suficiente a que no es al planeta
+al que dañamos, sino a nuestra propia especie al cambiar las condiciones en las cuales evolucionamos.</p>
+
+<p>Ya en la historia de la tierra han habido cambios extremos en la atmósfera y en los océanos,
+e incluso un impacto de un asteroide de al menos 10 Km. El factor común en todos esos casos
+ha sido la extinción de casi toda la vida en el planeta. Pero en todos ellos, la vida continuó,
+y en algunos casos hasta se benefició, aún cuando fueran nuevas especies las que llegan a dominar
+nuestro mundo. Incluso si pudiéramos generar cambios tan extremos como los que han sucedido en
+la historia de la tierra, la atmósfera eventualmente se recuperaría, los bosques crecerían
+nuevamente y los animales volverían a tener la misma diversidad que vemos ahora… es solo que
+nuestra especie ya no estaría ahí para verlo.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Siguiendo con la Evolución]]></title>
+    <link href="http://humberto-sermeno.com/blog/2009/02/28/siguiendo-con-la-evolucion/"/>
+    <updated>2009-02-28T23:15:00-06:00</updated>
+    <id>http://humberto-sermeno.com/blog/2009/02/28/siguiendo-con-la-evolucion</id>
+    <content type="html"><![CDATA[<p><em>Este post es el resultado de una discusión en mi post sobre <a href="complejidad">La Complejidad Irreducible y el Diseño Inteligente</a>.
+Consideré apropiado generar una entrada aparte ya que trata preguntas comunes sobre la teoría de la evolución
+que requieren respuestas relativamente extensas.</em></p>
+
+<!-- more -->
+
+
+<p><em>Los mensajes que generaron la discusión fueron:</em></p>
+
+<blockquote><p>José Manuel (17 de febrero de 2009)</p>
+
+<p>Haga un pequeño esfuerzo mental: destierre temporalmente toda idea en la que subyaga intención religiosa, aunque…
+¿no es el ateísmo una religión misma? Pues bien, sigamos: esforcémonos en considerar la hipótesis de trabajo (no teoría)
+de la evolución. ¿No habría que contextualizarla históricamente ya que el método científico NO es ajeno a su contexto
+socio-cultural? Los mismos que afirman que el Diseño Inteligente no es una ciencia, ¿se atreverían a afirmar que la
+selección natural SÍ lo es?</p>
+
+<p>También es importante considerar la siguiente cuestión. A partir de aquí hemos de seguir cuestíonando.</p>
+
+<p>“Las características sanguíneas de cada especie están notablemente adaptadas al ambiente y los particulares hábitos
+de vida. Es lógico que animales que deben soportar hábitats tan diferentes difieran también en sus órganos y sistemas
+expuestos a tales medios. La cuestión es qué pasos fueron necesarios para pasar de un sistema a otro y si la selección
+natural de las mutaciones al azar es capaz de explicarlos sin ambigüedades.” (P.D.DOMINICAL)</p></blockquote>
+
+<p><em>La siguiente fue mi respuesta:</em></p>
+
+<p>José Manuel,</p>
+
+<p>De hecho pediría que realizara el mismo ejercicio mental (porque mucho esfuerzo no requiere) de desterrar cualquier
+intención religiosa de este artículo, ya que su contenido no infiere de manera alguna que yo sea un ateo y mucho
+menos niega la existencia de un ser superior. Esto trato de aclararlo donde digo:</p>
+
+<p>“Sin embargo, así como sería ignorante de mi parte el decir que la Ciencia impide la creencia en un ser superior,
+no puede calificarse más que de ignorancia de parte de aquellos que utilizan su fe para atacar a quienes han decidido
+tener creencias diferentes.”</p>
+
+<p>De hecho, el pasar de aseverar que se apoya una visión científica del mundo a que se es una persona atea es un salto
+que, lastimosamente en nuestras sociedades religiosas, se asume como cierto inmediatamente, aún cuando no es una
+inferencia lógica válida. De hecho, si vio el video de la conferencia de Ken Miller, quien es el principal opositor
+del diseño inteligente, se habrá enterado que él es un devoto Cristiano.</p>
+
+<p>Luego de las aclaraciones, respondo sus preguntas.</p>
+
+<p>Claro, como toda actividad humana, incluyendo a la religión, la ciencia y el método científico no es ajeno a su contexto
+socio-cultural. Lo que caracteriza al método científico y lo saca de su contexto temporizado es que sus aseveraciones
+son constantemente enfrentadas contra la realidad de la naturaleza. Cuando una teoría surge para explicar algún fenómeno,
+dicha teoría es puesta a prueba por medio de experimentación o cuando se descubren nuevos fenómenos que le conciernen.
+Si la teoría no puede explicar los resultados o los fenómenos antes no conocidos, entonces sabemos que es necesario
+revisarla, modificarla e incluso descartarla. Es aún más drástica la respuesta cuando absolutamente todas las premisas
+en las que se basaba dicha teoría han sido demostrada como falsas. Este es precisamente el caso de la teoría (no la ciencia)
+del Diseño Inteligente, que sin connotación religiosa alguna, básicamente decía que habían cosas que la teoría de la
+evolución no podía explicar, específicamente los fenómenos que menciono en el artículo. La razón por la cual dicha teoría,
+como muchas otras dentro de la ciencia, ha sido descartada, es que no pasó el examen del tiempo. De hecho, tan solo un
+mes después de publicada la teoría se comenzaron a encontrar explicaciones para los hechos en los que se basaba. Su error
+fundamental había sido que intentaba demostrar algo a partir de la falta de evidencia en su contra, lo que es un error
+lógico fundamental.</p>
+
+<p>La teoría de la evolución (de la cual, debo aclarar, la selección natural no es una ciencia sino uno de los procesos
+que la explica) ha sobrevivido a las pruebas lanzadas en los últimos ciento treinta años desde su concepción, donde
+los nuevos fenómenos descubiertos (incluyendo el descubrimiento de la estructura del ADN casi 70 años despues) no han
+hecho más que confirmar la validez de sus premisas. Y con esto no quiero decir que debe creerse ciegamente en la evolución
+(a diferencia de lo que se pide en otras instituciones humanas), para nada! El escepticismo es parte integral de la
+ciencia y si en algún momento se encontrara algo en la naturaleza que no pudiera ser explicado por la evolución, es una
+señal clara que la teoría necesita modificación o incluso, si la evidencia la contradice lo suficiente, que debe ser
+desechada. Lo único que digo es que hasta el momento eso no ha sucedido, por lo que es nuestra mejor explicación, en base
+a las observaciones de la evidencia fósil, la geología, la microbiología y muchas otras ramas de la ciencia (no solo la
+biología).</p>
+
+<p>La respuesta a si las mutaciones aleatorias pueden modificar lo suficiente a una especie como para adaptarse a su medio
+es posible observarla en la naturaleza día a día, con varios estudios documentados de cómo, en un período relativamente
+corto de tiempo, una especie puede cambiar gradualmente a otra con pequeños cambios genéticos.</p>
+
+<p>Normalmente se dice que “aleatorio” se refiere al proceso completo de la selección natural. De hecho, aleatorios son los
+cambios genéticos que ocurren en una especie, incluyendo los cambios que de nuestro mismo material genético modificado
+en el proceso de división celular transferimos a nuestros hijos. Lo que ya no es tan aleatorio es cuáles de esos cambios
+sobreviven a las siguientes generaciones, y eso, precisamente, es dictado por el hábitat en el que la especie se
+desenvuelve. El proceso es de prueba y error, teniendo significativamente muchos más errores que aciertos. Pero aquellos
+escasos cambios que hacen que un organismo se desenvuelva mejor en su ambiente son los que hacen más probable que dicho
+organismo transfiera esos cambios a su descendencia. Las modificaciones son graduales y las mutaciones que generan esos
+cambios ventajosos son relativamente escasos. Pero con suficiente número de individuos (como el caso de una población de
+bacterias volviéndose resistente a un antibiótico) o con suficiente tiempo, esos pequeños cambios se acumulan lo suficiente
+como para generar nuevas especies. Un error común es pensar en la evolución en términos temporales humanos, en cuyo caso sí,
+nosotros somos un resultado poco probable (no imposible) de la evolución… pero la evolución ha tenido miles de millones de
+años para llegar hasta nosotros.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[La Complejidad Irreducible y el Diseño Inteligente]]></title>
+    <link href="http://humberto-sermeno.com/blog/2008/12/24/la-complejidad-irreducible-y-el-diseno-inteligente/"/>
+    <updated>2008-12-24T12:45:00-06:00</updated>
+    <id>http://humberto-sermeno.com/blog/2008/12/24/la-complejidad-irreducible-y-el-diseno-inteligente</id>
+    <content type="html"><![CDATA[<p><em>Este era originalmente parte de
+<a href="http://humberto-sermeno.com/blog/2008/12/24/encontrando-el-dios-de-darwin/">mi anterior entrada sobre el libro del Prof. Miller</a>,
+pero al parecer me emocioné un poco y decidí partirla en una entrada separada. Y antes que leyendo entre líneas
+lleguen a ciertas conclusiones, les pido leer completamente el artículo.</em></p>
+
+<p>Según la teoría de la Complejidad Irreducible, formulada por el Prof. Michael Behe, muchos de los complejos sistemas
+biológicos -como el flagelo de ciertas bacterias, el ojo y la cascada de coagulación de la sangre- no pudieron haber
+evolucionado de formas más simples o de predecesores &#8220;menos completos&#8221;, con la selección natural actuando sobre una
+serie de mutaciones aleatorias. En pocas palabras, el argumento principal dice que si a cualquiera de dichas máquinas
+se les quita alguna parte, pierden su utilidad biológica y, por lo tanto, no son lo suficientemente ventajosas como
+para ser preservadas por la selección natural. Esto, desde luego, implica que dichos sistemas tuvieron que haber sido
+diseñados en su estado actual por un ser inteligente, y no es de extrañar que sea la base la teoría del Diseño
+Inteligente, que no es más que una forma moderna de la tradicional Teoría Creacionista, modificada para evitar
+mencionar la naturaleza o la identidad del diseñador como manera de sobrepasar las prohibiciones de cortes
+norteamericanas de no enseñar la teoría del creacionismo como ciencia en las escuelas. Desde luego, todas y cada una
+de las argumentaciones de la Complejidad Irreducible han sido refutadas contundentemente con pruebas científicas.</p>
+
+<!-- more -->
+
+
+<p>Como muestra, podemos volver a los ejemplos mencionados, todos tomados de los ejemplos que el Dr. Behe mismo propone
+como sistemas irreducibles. Se ha demostrado que uno de los factores principales en el proceso de coagulación no se
+encuentra en las ballenas. Sin embargo, las ballenas utilizan el resto de partes para la coagulación, demostrando así
+que la premisa que un sistema es inutil sin alguna de sus partes es falsa. Los flagelos bacteriales, que requieren
+la interacción de cerca de 40 partes proteínicas han sido encontrados en algunas bacterias con hasta 40 proteinas
+faltantes, no indicando esto que su funcionamiento no fuese útil para el organismo. Igualmente, se ha dado una
+explicación plausible para la evolución del ojo.</p>
+
+<p>Para aquellos que quieran una explicación más detallada sobre el tema, les recomiendo Finding Darwin’s God, por Ken
+Miller. Si quieren algo más resumido, acá les dejo un video de 2 horas de una charla del mismo profesor.</p>
+
+<div class="ratio-4-3 embed-video-container" onclick="var myAnchor = document.getElementById('JVRsWAjvQSg');var tmpDiv = document.createElement('div');tmpDiv.innerHTML = '&lt;iframe style=&quot;vertical-align:top;width:100%;height:100%;position:absolute;&quot; src=&quot;http://www.youtube.com/embed/JVRsWAjvQSg?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;';myAnchor.parentNode.replaceChild(tmpDiv.firstChild, myAnchor);return false;" title="click here to play">
+<a class="youtube-lazy-link" style="width:100%;height:100%;background:#000 url(http://i2.ytimg.com/vi/JVRsWAjvQSg/0.jpg) center center no-repeat;background-size:contain;position:absolute" href="http://www.youtube.com/watch?v=JVRsWAjvQSg" id="JVRsWAjvQSg" onclick="return false;">
+<div class="youtube-lazy-link-div"></div>
+<div class="youtube-lazy-link-info">Ken Miller on Intelligent Design</div>
+</a>
+<div class="video-info" >Ken Miller&#8217;s talk on Intelligent Design at Case Western University. Ken Miller basically rips Intelligent Design apart in a 2 hour long exposé of the claims of intelligent design and the tactics that creationists employ to get it shoehorned into the American school system.</div>
+</div>
+
+
+<p>Lo alarmante del asunto es que, aún cuando la teoría ha sido ampliamente desacreditada en el ámbito científico,
+algunas personas (como pude comprobar personalmente) aún la toman como forma de atraer gente a la religión señalando
+cómo la misma ciencia ha demostrado que la Evolución tiene fallas.</p>
+
+<p>Para mi, esta teoría es otro claro ejemplo del argumentum ad ignorantiam de la existencia de dios (que conste que no
+lo menciono con la connotación negativa que salta a primera vista), donde se asume que algo es cierto simplemente porque
+no ha sido demostrado que sea falso y donde se utiliza la falta de evidencia para un punto de vista como prueba para
+demostrar otro punto de vista. Ha sido claro durante la historia que dicha forma de “prueba” tarde o temprano termina
+cediendo al conocimiento humano -de lo contrario, todavía serían válidas las aserciones que Ra y sus barcas son los
+responsables que el sol se mueva a través del cielo, luego de haber derrotado día a día a Apofis; que Poseidón (o Neptuno)
+es el responsable por terremotos (sí, no solo era el dios de los océanos); o que Venus no es un planeta si no la
+personificación del dios Tlahuizcalpantecuhtli. Eso, claro, sin mencionar que el dios que nos creó en un instante pero
+dejó las huellas y la evidencia para hacernos pensar que todo había sido un proceso natural, es un dios charlatán, mago
+o mecánico, como le llama el Dr. Miller, en el que no me gustaría creer.</p>
+
+<p>Es razonable pensar que en épocas donde el conocimiento humano estaba más en su infancia que ahora, se le atribuyera a
+un acto divino la creación de la tierra o el origen de las especies -miren a las mayores religiones de la historia y
+verán las historias correspondientes a cada uno de esos sucesos. Incluso algo que ahora le damos el nombre de “epilepsia”
+pudo haber sido fácilmente atribuido a una posesión demoníaca. Sin embargo, no es razonable que en nuestra época aún
+se tomen dichas historias literalmente y, más aún, que se intente desacreditar uno de las mayores teorías científicas
+de la humanidad en base a dichos relatos. En la cultura occidental ya pasamos por siglos de ejemplos de cómo ese tipo
+de pensamiento puede ser perjudicial para nuestro desarrollo como especie. Si siguiéramos en el oscurantismo, nuestra
+tasa de mortandad infantil sería mucho más alta y nuestra esperanza de vida mucho más baja. Eso, claro, sin mencionar
+la posible pena de muerte para aquellos que creemos que la tierra no es el centro del universo. Debo mencionar que no
+doy este ejemplo para juzgar a una religión por sus errores pasados, sino como un simple ejemplo más de por qué se debe
+aprender de la historia.</p>
+
+<p>Los que me conocen bien saben mi respeto hacia las creencias de otros. Tuve la fortuna de vivir en una región mucho más
+diversa que la nuestra, donde el hinduismo, el islam y el judaismo, entre otros, eran mucho más fáciles de encontrar que
+en nuestro pais. De hecho, mis mejores amigos son fervientes creyentes de algunas de esas religiones. Lo que no tolero es
+el ataque que fundamentalistas realizan no solo a religiones con creencias diferentes, sino a aquellos que apoyamos una
+visión científica del mundo, muchas veces condenándonos a sus infiernos por no creer lo que ellos creen (y que, debo
+mencionar, tampoco es el tipo de dios tirano y vengativo en el que me gustaría creer).</p>
+
+<p>Racionalmente, ni la ciencia puede demostrar la inexistencia de un dios (aún cuando muchos tratan a la ciencia como la
+asesina de nuestras deidades), ni la religión puede demostrar la existencia del mismo. Creer es un acto de fe, y, por
+definición, es valorar como cierto algo de lo cual no se tiene evidencia y que puede parecer imposible. Y de hecho son
+admirables muchas personas que viven por su fe e incluso han habido personas de fe que han hecho aportes importantes a
+la ciencia -tómese como ejemplo a Gregor Mendel. Sin embargo, así como sería ignorante de mi parte el decir que la Ciencia
+impide la creencia en un ser superior, no puede calificarse más que de ignorancia de parte de aquellos que utilizan su fe
+para atacar a quienes han decidido tener creencias diferentes. Ese es el tipo de “religión” del que estoy en contra: de
+aquella que no muestra más que ignorancia (y la felicidad de quedarse en ese estado), intolerancia y, en muchas ocasiones,
+incompatibilidad con sus propios principios, y no de aquella que le da a muchas personas un sentido a la vida, a sus
+acciones y las lleva a ser mejores seres humanos.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Encontrando el Dios de Darwin]]></title>
+    <link href="http://humberto-sermeno.com/blog/2008/12/24/encontrando-el-dios-de-darwin/"/>
+    <updated>2008-12-24T12:37:00-06:00</updated>
+    <id>http://humberto-sermeno.com/blog/2008/12/24/encontrando-el-dios-de-darwin</id>
+    <content type="html"><![CDATA[<p><img class="featured right" src="http://humberto-sermeno.com/images/posts/2008-12-24-encontrando-el-dios-de-darwin.jpg"></p>
+
+<p>Me pareció oportuna la fecha para hablar sobre un libro que leí hace ya algún tiempo,
+pero que revisé hace poco al prestárselo a una persona muy cercana a mi.</p>
+
+<p>Supe de este libro por una charla que el Prof. Miller dio en Lehigh en 2005 sobre el
+tema, siendo él uno de los principales y, sobre todo, expresivos oponentes a la teoría
+de la Complejidad Irreducible de Michael Behe, un profesor de Biología en mi universidad
+(ver mi siguiente entrada sobre &#8221;<a href="http://humberto-sermeno.com/blog/2008/12/24/la-complejidad-irreducible-y-el-diseno-inteligente/">La Complejidad Irreducible y el Diseño Inteligente</a>&#8221;).
+El libro es principalmente el testamento de un ferviente cristiano y biólogo molecular
+que plasma cómo sus creencias religiosas son compatibles con su conocimiento científico.</p>
+
+<p>De manera general, el libro puede ser dividido en dos secciones. La primera parte habla
+sobre la ciencia de la evolución. En particular, habla sobre muchas posiciones creacionistas,
+describe qué tipo de dios son supuestos por dichas posiciones (charlatán, mago y mecánico) y
+luego explica científica y, de cierta manera, teológicamente, el porqué dichas posiciones
+tienen problemas. En el camino, provee muchos ejemplos de cómo la evolución, desde su insepción,
+pudo haber sido comprobada como falsa, y sin embargo la evidencia ha demostrado una y otra vez
+que la teoría concuerda con la realidad.</p>
+
+<p>La segunda parte es un salto de fe, y explica cómo, a pesar de la aparente discrepancia entre
+ciencia y religión, él ha podido encontrar compatibilidad y complementariedad entre ambas.</p>
+
+<p>Este es quizás uno de mis libros favoritos sobre el tema y se lo recomiendo a cualquiera. No
+sólo porque Miller da las mejores charlas que yo he escuchado en mi vida, y ese mismo entusiasmo
+lo plasma en su escritura, si no por la forma en la que presenta los datos científicos que
+soportan a la evolución y los motivos que lo llevan a creer en un ser superior, el mismo dios en
+el que Darwin creyó.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sin Electricidad]]></title>
+    <link href="http://humberto-sermeno.com/blog/2008/12/21/sin-electricidad/"/>
+    <updated>2008-12-21T11:38:00-06:00</updated>
+    <id>http://humberto-sermeno.com/blog/2008/12/21/sin-electricidad</id>
+    <content type="html"><![CDATA[<p>El jueves por la noche me pasó algo curioso acá en mi casa. Estaba trabajando en la computadora
+cuando de repente, al parecer, hubo un corte de energía eléctrica. Lo raro es que, cuando miro
+hacia atrás, la luz de mi cuarto seguía encendida, así como la luz de la sala. Claro, lo primero
+que vino a la mente es que alguno de los dados había sido disparado por alguna sobrecarga, pero
+todos estaban en su lugar.</p>
+
+<p>Lo malo de la situación, más que no hubiese electricidad en la mitad de la casa, que incluía a la
+cocina, el cuardo de lavado, la oficina y uno de los cuartos, es que la bomba de la sisterna estaba
+en esa zona, por lo que no teníamos absolutamente nada de agua! Eso, claro, sin mencionar que la
+refri tuvo que ser movida a la sala.</p>
+
+<p>Pasé el viernes completo haciendole pruebas al sistema eléctrico de la casa sin encontrar algo malo.
+No fue hasta que se me ocurrió en la noche revisar el medidor que me di cuenta que una de las fases
+que entra a la casa estaba desconectada. ¿Cómo se desconectó? ni idea, pero tras una llamada a CAESS
+(no lo hice yo porque no tenía manera segura de no estar tocando tierra en algún momento) todo se
+arregló. Algo que sí me llamó la atención fue la relativa rapidez con la que la empresa respondió a
+nuestro llamado. Tras un par de pruebas extra, me di cuenta que ese era todo el problema y, por suerte,
+ninguno de los equipos eléctricos resultó dañado.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[El Prof. Kenneth Miller vs el Diseño Inteligente]]></title>
+    <link href="http://humberto-sermeno.com/blog/2005/10/12/prof-kenneth-miller-vs-el-diseno-inteligente/"/>
+    <updated>2005-10-12T20:49:00-06:00</updated>
+    <id>http://humberto-sermeno.com/blog/2005/10/12/prof-kenneth-miller-vs-el-diseno-inteligente</id>
+    <content type="html"><![CDATA[<p>Acabo de regresar de la que considero la mejor charla a la que he asistido en Lehigh:
+&#8220;Darwin’s Genome: Answering the Challenge of ‘Intelligent Design’&#8221;, por el profesor
+Kenneth Miller de Brown University. Definitivamente mi gusto por la charla es principalmente
+influenciado por el hecho que ambos tenemos una posición muy similar sobre la ciencia y la
+religión (nótese que aunque Dr. Miller es uno de los mayores críticos de la teoría del
+&#8220;Diseño Inteligente&#8221; -lo siento si traduje mal esa frase-, es un ferviente Cristiano).</p>
+
+<p>Durante la sesión de preguntas, sintetizó increíblemente bien uno de los puntos que más he
+tenido que aclarar durante mis charlas sobre el tema, cuando la gente malinterpreta mis
+argumentos sobre la ciencia como la razón para mi posición sobre la religión. Propuso un
+ejemplo en el que al final de las primeras clases de biología molecular en cada semestre,
+siempre encuentra a un par de estudiantes que básicamente le preguntan &#8220;¿Debo creer en la
+evolución para poder salir bien en su clase?&#8221;, a lo que responde:</p>
+
+<blockquote><p>The purpose of science is not to compel belief but to propose understanding
+(El propósito de la ciencia no es imponer creencias sino impulsar entendimiento.)</p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>
