@@ -119,3 +119,16 @@ blockquote::before {
 blockquote p:last-child {
     margin-bottom: 0;
 }
+
+table.simple {
+    margin-bottom: 1em;
+}
+
+table.simple tr td:first-child {
+    text-align: right;
+    padding-right: 1em;
+}
+
+table.simple tr td:first-child::after {
+    content: ":"
+}
