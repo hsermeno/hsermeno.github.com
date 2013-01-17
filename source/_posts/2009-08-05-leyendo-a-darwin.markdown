@@ -24,4 +24,4 @@ la principal razón por la que me puse a escribir esta entrada:
 y no esos que saben mucho, quienes tan positivamente afirman que éste o aquel problema nunca será 
 resuelto por la ciencia.
 
-Cualquiera que se sienta aludido por esta cita… fue intencional.
+Cualquiera que se sienta aludido… fue intencional.

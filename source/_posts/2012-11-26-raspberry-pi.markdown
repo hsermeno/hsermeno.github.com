@@ -7,9 +7,9 @@ categories: [ "Raspberry Pi" ]
 ---
 
 Después de una espera muy (pero muy) larga, por fin llegó mi Raspberry Pi. Para los que 
-no saben sobre el Pi, es básicamente una mini PC del tamaño de una tarjeta de crédito.
+no saben sobre el Pi, es básicamente una mini PC del tamaño de una tarjeta de crédito por $35.
 
-{% img featured /images/posts/2012-12-05-raspberry-pi.jpg %}
+{% img featured /images/posts/2012-11-26-raspberry-pi.jpg %}
 
 <!-- more -->
 

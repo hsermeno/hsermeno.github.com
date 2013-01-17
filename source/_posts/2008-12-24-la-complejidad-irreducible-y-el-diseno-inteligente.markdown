@@ -7,7 +7,7 @@ categories: [ "Personal", "Creencias" ]
 ---
 
 _Este era originalmente parte de 
-[mi anterior entrada sobre el libro del Prof. Miller]({% post_url 2008-12-24-encontrando-el-dios-de-darwin %}), 
+[mi anterior entrada sobre el libro del Prof. Miller][libro-miller], 
 pero al parecer me emocioné un poco y decidí partirla en una entrada separada. Y antes que leyendo entre líneas 
 lleguen a ciertas conclusiones, les pido leer completamente el artículo._
 
@@ -82,3 +82,5 @@ para atacar a quienes han decidido tener creencias diferentes. Ese es el tipo de
 aquella que no muestra más que ignorancia (y la felicidad de quedarse en ese estado), intolerancia y, en muchas ocasiones, 
 incompatibilidad con sus propios principios, y no de aquella que le da a muchas personas un sentido a la vida, a sus 
 acciones y las lleva a ser mejores seres humanos.
+
+[libro-miller]: {% post_url 2008-12-24-encontrando-el-dios-de-darwin %} "Encontrando al Dios de Darwin"
