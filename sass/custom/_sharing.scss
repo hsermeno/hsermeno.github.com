@@ -1,0 +1,142 @@
+$sprite-default-margin: 2px;
+@import "social/*.png";
+
+@include all-social-sprites;
+
+.share {
+    color: #000;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 2em;
+    padding: 16px 0;
+    border-top: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+    
+    .share-text {
+        float: left;
+        line-height: 25px;
+    }
+     
+    .share-wrap {
+        float: left;
+        
+        .share-button {
+        	float: left;
+        	height: 25px;
+        	margin-left: 8px;
+        	overflow: hidden;
+        	position: relative;
+        	width: 25px;            
+            /*CSS3*/
+            -moz-transition: width 0.5s;
+        	-o-transition: width 0.5s;
+        	-webkit-transition: width 0.5s;
+        	transition: width 0.5s;
+        	
+        	&:hover {
+        	    overflow: visible;
+        	    width: 120px;
+        	}
+        	
+        	&.gplus:hover {
+        	    width: 105px;
+        	}
+        	
+        	&.pinterest:hover {
+        	    width: 75px;
+        	}
+        	
+        	.share-icon {
+            	cursor: default;
+            	display: block;
+            	float: left;
+            	font-style: normal;
+            	height: 24px;
+            	overflow: hidden;
+            	text-indent: -9999px;
+            	width: 24px;      	    
+        	}
+        	
+        	.share-inner {
+            	float: left;
+            	margin: 1px 0 0 4px;
+            	position: absolute;
+            	left: 29px;
+            	top: 1px;
+            	width: 120px;
+        	}
+        }
+    }
+    
+    .facebook {
+        .share-icon {
+            @include social-sprite(facebook-circle);
+            background-image: url(/images/social_sprites.png);
+        }
+    }
+    
+    .twitter {
+        .share-icon {
+            @include social-sprite(twitter-circle);
+            background-image: url(/images/social_sprites.png);
+        }
+    }
+    
+    .gplus {
+        .share-icon {
+            @include social-sprite(google-plus-circle);
+            background-image: url(/images/social_sprites.png);
+        }
+    }
+    
+    .pinterest {
+        .share-icon {
+            @include social-sprite(pinterest-circle);
+            background-image: url(/images/social_sprites.png);
+        }
+    }
+    
+    .mail {
+        .share-icon {
+            @include social-sprite(email-circle);
+            background-image: url(/images/social_sprites.png);
+        }
+    }
+}
+
+.single .spyr_share {
+	margin-top: 14px;
+}
+
+
+#content .spyr_sb_mail a,#footer .spyr_sb_mail a {
+	font-size: 12px;
+	font-style: italic;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+#content .spyr_sb_mail a:hover,#footer .spyr_sb_mail a:hover {
+	text-decoration: underline;
+}
+
+
+.home .spyr_share {
+	border-bottom: 1px solid #cecece;
+	margin-bottom: 60px;
+	padding: 13px 0 38px 0;
+}
+
+#footer .spyr_share {
+	border-top: 1px solid #cecece;
+	padding: 16px 0;
+}
+
+.clear {
+clear: both;
+height: 0;
+margin: 0;
+padding: 0;
+visibility: hidden;
+}
