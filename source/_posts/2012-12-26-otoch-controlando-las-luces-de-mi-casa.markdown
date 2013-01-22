@@ -11,6 +11,8 @@ para mi casa. La idea es controlar la mayor cantidad de aspectos posibles (luces
 acondicionado, sensores de movimiento), pero por el momento he comenzado con lo más práctico: las
 luces.
 
+{% img featured /images/posts/2012-12-26-otoch-controlando-las-luces-de-mi-casa.png %}
+
 <!-- more -->
 
 ## Arquitectura

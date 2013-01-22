@@ -19,34 +19,62 @@ h2, section h1 {
 
 html {
     background: white;
-    body {
-        color: #333;
-        > nav {
-            background: none;
-            max-width: 50em;
-            margin: 0 auto;
-            
-            a {
-                text-shadow: none;
-                font-family: "Advent Pro", serif;
-                text-transform: uppercase;
-            }
+}
+
+body {
+    color: #333;
+    > nav {
+        background: none;
+        max-width: 50em;
+        margin: 0 auto;
+        
+        a {
+            text-shadow: none;
+            font-family: "Advent Pro", serif;
+            text-transform: uppercase;
         }
+    }
+    > div {
+        background: none;
+        border: none;
         > div {
             background: none;
             border: none;
-            > div {
-                background: none;
-                border: none;
-                margin-right: 0;
+            margin-right: 0;
+        }
+    }
+}
+
+footer {
+    background: none;
+    max-width: 50em;
+    margin: 0 auto;
+    text-shadow: none;
+    
+    .post-nav {
+        padding: 1.1em 0 2em;
+        border-bottom: 1px solid #cecece;
+        
+        h5 {
+            font-size: 1em;
+            font-weight: 400;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            font-family: 'Noticia Text', serif;
+            margin-top: 1em;
+        }
+        
+        a {
+            color: #cacaca;
+            font-size: 1em;
+            line-height: 1.2px;
+            text-decoration: none;
+            font-style: italic;
+
+            &:hover {
+                color: black;
             }
         }
-        footer {
-            background: none;
-            max-width: 50em;
-            margin: 0 auto;
-            text-shadow: none;
-        } 
     }
 }
 
@@ -90,8 +118,9 @@ a.comments_toggle {
     color: #333;
 }
 
-img.featured:parent {
-    text-align: center;
+img.featured {
+    display: block;
+    margin: 0 auto;
 }
 
 blockquote {

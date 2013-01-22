@@ -84,6 +84,9 @@ googleplus_hidden: false
 pinboard_user:
 pinboard_count: 3
 
+# Pinterest "Pin it" button
+pinterest_pinit: true
+
 # Delicious
 delicious_user:
 delicious_count: 3
@@ -97,4 +100,7 @@ google_analytics_tracking_id: UA-37210821-1
 
 # Facebook Like
 facebook_like: true
+
+# E-Mail Share
+email_share: true
 

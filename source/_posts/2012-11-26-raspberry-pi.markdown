@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Raspberry Pi"
-date: 2011-11-26 13:16
+date: 2012-11-26 13:16
 comments: true
 categories: [ "Raspberry Pi" ]
 ---

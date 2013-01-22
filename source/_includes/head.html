@@ -24,6 +24,10 @@
   <meta property="og:url"                  content="{{ canonical }}"> 
   <meta property="og:title"                content="{% if page.title %}{{ page.title | strip_html }} - {% endif %}{{ site.title }}">
   <meta property="og:description"          content="{{ description | excerpt | strip_html | condense_spaces }}">
+    <meta property="og:image" content="{{ post.featured_image }}">
+  {% if post.featured_image %}
+    <meta property="og:image" content="{{ post.featured_image }}">
+  {% endif %}
 
   <link href="{{ root_url }}/favicon.png" rel="icon">
   <link href="{{ root_url }}/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
