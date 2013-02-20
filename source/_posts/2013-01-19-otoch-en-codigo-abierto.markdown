@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Otoch en codigo abierto"
+title: "Otoch en código abierto"
 date: 2013-01-19 00:17
 comments: true
 categories: [ "Otoch" ]

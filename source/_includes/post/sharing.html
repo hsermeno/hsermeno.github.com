@@ -37,7 +37,7 @@
 		{% if site.pinterest_pinit %}
 		<div class="share-button pinterest">
 			<a href="#" class="share-icon">Pinterest</a>
-			<div class="share-inner"><a href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ page.url }}&media=<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>&description={{ page.title }}" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>				</div>
+			<div class="share-inner"><a href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ page.url }}&amp;media=&amp;description={{ page.title }}" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>				</div>
 		</div>
 		{% endif %}
 		{% if site.email_share %}

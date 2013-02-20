@@ -85,7 +85,7 @@ pinboard_user:
 pinboard_count: 3
 
 # Pinterest "Pin it" button
-pinterest_pinit: true
+pinterest_pinit: false
 
 # Delicious
 delicious_user:
