@@ -6,7 +6,7 @@ comments: true
 categories: [ "Personal", "Creencias" ]
 ---
 
-_Este post es el resultado de una discusión en mi post sobre [La Complejidad Irreducible y el Diseño Inteligente](complejidad). 
+_Este post es el resultado de una discusión en mi post sobre [La Complejidad Irreducible y el Diseño Inteligente][complejidad]. 
 Consideré apropiado generar una entrada aparte ya que trata preguntas comunes sobre la teoría de la evolución 
 que requieren respuestas relativamente extensas._ 
 
@@ -89,3 +89,5 @@ bacterias volviéndose resistente a un antibiótico) o con suficiente tiempo, es
 como para generar nuevas especies. Un error común es pensar en la evolución en términos temporales humanos, en cuyo caso sí, 
 nosotros somos un resultado poco probable (no imposible) de la evolución… pero la evolución ha tenido miles de millones de 
 años para llegar hasta nosotros.
+
+[complejidad]: {% post_url 2008-12-24-la-complejidad-irreducible-y-el-diseno-inteligente %} "Complejidad Irreducible y el Diseño Inteligente"
