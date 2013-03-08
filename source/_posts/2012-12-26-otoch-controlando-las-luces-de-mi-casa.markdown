@@ -4,6 +4,7 @@ title: "Otoch: controlando las luces de mi casa"
 date: 2012-12-26 17:21
 comments: true
 categories: [ "Otoch", "Raspberry Pi", "Arduino" ]
+tags: [ "Otoch", "Raspberry Pi", "Arduino", "jQuery Mobile", "Node.js", "socket.io"]
 ---
 
 __Otoch__ [_casa_ en Itzá], es como decidí nombrar al sistema de automatización que estoy construyendo

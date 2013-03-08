@@ -4,6 +4,7 @@ title: "Otoch en código abierto"
 date: 2013-01-19 00:17
 comments: true
 categories: [ "Otoch" ]
+tags: [ "jQuery Mobile", "Otoch", "Node.js", "socket.io" ]
 ---
 
 Ahora decidí que parte del código de [Otoch][otoch] esté disponible al público en GitHub. Para los que no sabían,

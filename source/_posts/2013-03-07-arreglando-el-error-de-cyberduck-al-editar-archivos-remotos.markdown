@@ -3,7 +3,8 @@ layout: post
 title: "Arreglando el error de Cyberduck al editar archivos remotos"
 date: 2013-03-07 17:18
 comments: true
-categories: [ "Tips", "Cyberduck" ]
+categories: [ "Tips" ]
+tags: [ "OS X", "Cyberduck" ]
 ---
 
 Yo utilizo [Cyberduck][cyberduck] como mi cliente predilecto para FTP y SFTP en el OS X (aunque también tiene versión para Windows). Me gusta principalmente la opción para editar archivos, con lo que las modificaciones a ficheros remotos son extremadamente fáciles de realizar: sólo se dice qué archivo editar, se abre localmente con su editor favorito y cyberduck actualiza el archivo remoto automáticamente cada vez que guarda el archivo local.

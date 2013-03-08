@@ -4,6 +4,7 @@ title: "Opera se cambia a WebKit"
 date: 2013-02-13 15:45
 comments: true
 categories: [ "Web", "Noticias" ]
+tags: [ "Opera", "Webkit" ]
 ---
 
 El navegador web [Opera][opera] anunció ahora que ha alcanzado a los 300 millones de usuarios. En el mismo comunicado, sin embargo,

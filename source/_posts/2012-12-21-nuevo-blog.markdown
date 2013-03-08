@@ -3,7 +3,8 @@ layout: post
 title: "Nuevo Blog"
 date: 2012-12-21 08:58
 comments: true
-categories: [ sitio web ]
+categories: [ "Web", "Noticias" ]
+tags: [ "Octopress", "nginx", "node.js", "WordPress", "Jekyll" ]
 ---
 
 Finalmente, ¡mi sitio web está de vuelta! Espero que esta vez sea más permanente

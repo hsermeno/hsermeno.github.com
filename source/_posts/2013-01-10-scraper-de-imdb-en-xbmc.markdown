@@ -4,6 +4,7 @@ title: "Scraper de iMDb en XBMC"
 date: 2013-01-10 12:54
 comments: true
 categories: [ "XBMC" ]
+tags: [ "IMDb", "XBMC" ]
 ---
 
 Desde hace algunos días había notado que el Scraper del [Internet Movie Database](http://imdb.com) en 
